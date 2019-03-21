@@ -30,4 +30,4 @@ train["Sex"][train["Sex"] == "female"] = 1    # Sexカラムの文字列female�
 train["Embarked"][train["Embarked"] == "S" ] = 0    # Embarkedカラムの文字列Sを0に置き換える
 train["Embarked"][train["Embarked"] == "C" ] = 1    # Embarkedカラムの文字列Cを1に置き換える
 train["Embarked"][train["Embarked"] == "Q"] = 2    # Embarkedカラムの文字列Qを2に置き換える
-train.head(10)
+
